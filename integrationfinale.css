@@ -1,0 +1,211 @@
+*
+{
+	box-sizing: border-box;
+}
+.container
+{
+	position: relative;
+    background-image: url("images/bglight.png");
+}
+
+.navbar
+{
+        background-color: orangered;
+        height: 80px;
+}
+ul
+{
+    list-style-type: none;
+    padding-top: 20px;
+    font-family: Aniron;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Aniron;
+}
+p
+{
+    font-family: Party Business;
+    font-size: 25px;
+}
+.transparent
+{
+    width: 100%;
+    min-height: 400px;
+    opacity: 0.8;
+}
+
+.transparent:hover
+{
+    width: 100%;
+    min-height: 400px;
+    opacity: 1;
+}
+
+span
+{
+    color: orange;
+}
+h4
+{
+    text-align: center;
+}
+h2
+{
+    font-size: 25px;
+    text-align: justify;
+}
+#reward
+{
+    background-image: url("images/bgdark.png");
+    color:white;
+}
+<!--- REWARD --->
+.text
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contain
+{
+    position: relative;
+    width: 350px;
+}
+.caption
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightgray;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    padding:30px;
+ }
+.caption p span
+{
+    color: orange;
+}
+.caption p
+{
+    border-radius: 6px;
+    background-color: silver;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+.name
+{
+        color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+}
+.caption:hover
+{
+    background-color: transparent;
+}
+.caption:hover p
+{
+    display: none;
+}
+.caption:hover .name
+{
+    margin-top: 300px;
+    font-size: 20px;
+}
+
+.tab 
+{
+    padding-bottom: 20px;
+    font-color: #f5f5f0;
+}
+
+#ring
+{
+    background-image: url("images/bgdark.png");
+
+}
+#contact
+{
+    background-image: url("images/bgdark.png");
+}
+.first-slide
+{
+    max-height: 450px;
+    width: 100%;
+}
+.second-slide
+{
+    max-height: 450px;
+    width: 100%;
+}
+.third-slide
+{
+    max-height: 450px;
+    width: 100%;
+}
+.name
+{
+        color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+}
+.caption:hover .name
+{
+    margin-top: 300px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+button
+{
+    border-radius:12px 0 12px 0;
+    background: white;
+    border:none;
+    color: orangered;
+    font-size: 40px;
+    padding:6px 0 6px 0;
+    font-family: Party Business;
+    margin-top: 60px;
+}
+.coin
+{
+    margin-left: 800px; 
+}
+.elves .goblin
+{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.map
+{
+    max-height: 900px;
+    max-width: 500px;
+}
+.need
+{
+    max-height: 200px;
+    min-width: 200px;
+}
+footer
+{
+    background-color: orangered;
+}
+.army
+{
+    max-height: 200px;
+    max-width: 200px
+}
+.brand 
+{
+    margin-top: 30px;
+    margin-right: 60px;
+    margin-left: 10px;
+}
