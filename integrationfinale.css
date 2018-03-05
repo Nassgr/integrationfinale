@@ -175,24 +175,15 @@ button
     font-family: Party Business;
     margin-top: 60px;
 }
-.coin
-{
-    margin-left: 800px; 
-}
 .elves .goblin
 {
     margin-left: 100px;
     margin-top: 30px;
 }
-.map
-{
-    max-height: 900px;
-    max-width: 500px;
-}
 .need
 {
-    max-height: 200px;
-    min-width: 200px;
+    height: 50px;
+    width: 50px;
 }
 footer
 {
@@ -200,8 +191,8 @@ footer
 }
 .army
 {
-    max-height: 200px;
-    max-width: 200px
+    height: 50px;
+    width: 50px
 }
 .brand 
 {
