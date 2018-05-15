@@ -34,13 +34,15 @@ footer {
     background-color: orangered;
 }
 
+.row{
+    padding: 100px;
+}
 .flex {
     display: flex;
 }
 
 .circle {
     position: relative;
-    background: #white;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -48,10 +50,11 @@ footer {
 }
 
 .onering {
+    background-image: url("images/bglight.png");
     position: absolute;
     border: 15px solid gold;
     box-shadow: 1px 1px 2px 4px #cc9900;
-    background-image: url("images/bglight.png");
+    background-color: white;
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -67,6 +70,7 @@ footer {
     box-shadow: 1px 1px 1px 1px #404040;
     margin-right: -8px;
     margin-top: -10px;
+    margin-left: 700px;
 }
 
 .circle-2 {
