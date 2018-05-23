@@ -68,7 +68,8 @@ footer{
         width: 20px*$i;
         height: 20px*$i;
         border:5px solid #404040;
-        drop-shadow:1px 1px 1px*$i 1px #404040;
+        box-shadow:1px 1px 1px*$i 1px #404040;
+        filter: drop-shadow(4px 3px 3px black);
         margin-right:-8px*$i;
         margin-top: -10px*$i
 
